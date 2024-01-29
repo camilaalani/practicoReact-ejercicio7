@@ -72,7 +72,12 @@ function App() {
 
   return (
     <>
-     
+     <header>
+        <h2 className="text-center mt-3">Lista de Empleados</h2>
+        </header>
+        <main>
+          <EmpleadoList empleados={empleados}></EmpleadoList>
+        </main>
     </>
   );
 }
